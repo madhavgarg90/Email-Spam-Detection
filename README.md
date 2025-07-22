@@ -3,7 +3,7 @@
 This project implements a **Spam Detection System** using Natural Language Processing (NLP) and compares the performance of three different classification models:
 
 1. ✅ Multinomial Naïve Bayes  
-2. 🌳 Decision Tree Classifier  
+2. 🌳 Decision Tree Classifier (Custom-built)
 3. 🌲 Random Forest Classifier (Custom-built)  
 
 We use the SMS Spam Collection Dataset for training and evaluating the models.
@@ -15,7 +15,7 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 **Dataset Used:** SMS Spam Collection  
 - Total Entries: **5,572**  
 - Columns: `label` (`ham` or `spam`), `message`  
-- Source: [Kaggle – SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)  
+- Source: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)  
 
 ---
 
@@ -67,5 +67,32 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 
 ## 🔍 Example Prediction
 
-```python
-predict_spam_or_ham("Congratulations! You've won a $1000 Walmart gift card. Click here to claim now.")
+
+
+## 💾 Model Saving
+
+All trained models are saved using `pickle`:
+
+- `RFC.pkl` – Random Forest  
+- `DTC.pkl` – Decision Tree  
+- `MNB.pkl` – Multinomial Naïve Bayes  
+
+---
+
+## 🚀 Run Instructions
+
+```bash
+# Install required libraries
+pip install numpy pandas matplotlib nltk scikit-learn
+```
+
+Run the notebook in Google Colab or locally using Jupyter.
+
+
+
+---
+
+## 👨‍💻 Author
+
+**Madhav Garg**  
+Spam Classifier Project | NLP & ML Enthusiast
