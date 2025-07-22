@@ -91,8 +91,3 @@ Run the notebook in Google Colab or locally using Jupyter.
 
 
 ---
-
-## 👨‍💻 Author
-
-**Madhav Garg**  
-Spam Classifier Project | NLP & ML Enthusiast
