@@ -21,7 +21,7 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 
 ## 🛠️ Tech Stack
 
-- Python 🐍  
+- Python 
 - Pandas, NumPy  
 - NLTK for NLP preprocessing  
 - Scikit-learn for Naïve Bayes  
