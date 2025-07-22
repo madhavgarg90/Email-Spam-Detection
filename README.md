@@ -15,7 +15,7 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 **Dataset Used:** SMS Spam Collection  
 - Total Entries: **5,572**  
 - Columns: `label` (`ham` or `spam`), `message`  
-- Source: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)  
+- Source: [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
 ---
 
