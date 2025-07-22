@@ -55,19 +55,15 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 
 ## 📈 Model Performance
 
-| Model                    | Accuracy | Precision (Spam) | Recall (Spam) | F1-Score (Spam) |
-|--------------------------|----------|------------------|---------------|-----------------|
-| Multinomial Naïve Bayes  | 98.2%    | 0.93             | 0.93          | 0.93            |
-| Decision Tree Classifier | 95.7%    | 0.97             | 0.71          | 0.82            |
-| Random Forest (Custom)   | 86.5%    | 1.00             | 0.00          | 0.00            |
+| Model                    | Accuracy | 
+|--------------------------|----------|
+| Multinomial Naïve Bayes  | 98.2%    | 
+| Decision Tree Classifier | 95.7%    | 
+| Random Forest            | 86.5%    | 
 
 **🏆 Best Model: Multinomial Naïve Bayes**
 
 ---
-
-## 🔍 Example Prediction
-
-
 
 ## 💾 Model Saving
 
@@ -78,6 +74,12 @@ All trained models are saved using `pickle`:
 - `MNB.pkl` – Multinomial Naïve Bayes  
 
 ---
+
+## 🔍 Example Prediction
+
+
+
+
 
 ## 🚀 Run Instructions
 
