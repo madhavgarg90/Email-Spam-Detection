@@ -17,7 +17,7 @@ We use the SMS Spam Collection Dataset for training and evaluating the models.
 - Columns: `label` (`ham` or `spam`), `message`  
 - Source: [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - 
-- ![Head](Image/head.png)
+- ![Head](Image/Head.png)
 
 ---
 
@@ -79,7 +79,7 @@ All trained models are saved using `pickle`:
 
 ## 🔍 Example Prediction
 
-![Example Prediction](Image/prediction.png)
+![Example Prediction](Image/Prediction.png)
 
 
 
