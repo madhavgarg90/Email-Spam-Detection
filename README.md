@@ -3,8 +3,8 @@
 This project implements a **Spam Detection System** using Natural Language Processing (NLP) and compares the performance of three different classification models:
 
 1. ✅ Multinomial Naïve Bayes  
-2. 🌳 Decision Tree Classifier (Custom-built)
-3. 🌲 Random Forest Classifier (Custom-built)  
+2. ✅ Decision Tree Classifier (Custom-built)
+3. ✅ Random Forest Classifier (Custom-built)  
 
 We use the SMS Spam Collection Dataset for training and evaluating the models.
 
